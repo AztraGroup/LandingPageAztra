@@ -1,0 +1,246 @@
+Attached HTML and CSS Context
+
+<section class="hero">
+      <div class="glow-bg"></div>
+      <div class="container hero-content">
+        <h1 class="animate-up visible">
+          Pare de tentar vender no caos.
+          <span class="highlight">Organizamos sua empresa para o digital.</span>
+        </h1>
+        <p class="hero-sub animate-up delay-1 visible">
+          Não entregamos apenas 'posts' ou 'um site'. Entregamos a estrutura base que todo negócio
+          precisa para lucrar:
+          <strong>Identidade Visual, Presença Social, Landing Page e Tráfego Pago. Tudo
+            integrado.</strong>
+        </p>
+        <div class="hero-cta animate-up delay-2 visible">
+          <a href="#contato" class="btn btn-solid">Quero minha estrutura pronta</a>
+        </div>
+      </div>
+    </section>
+
+
+/* Matched Rule from user-agent */
+article, aside, footer, header, hgroup, main, nav, search, section {
+  display: block;
+}
+
+/* Matched Rule from user-agent */
+address,
+blockquote,
+center,
+div,
+figure,
+figcaption,
+footer,
+form,
+header,
+hr,
+legend,
+listing,
+main,
+p,
+plaintext,
+pre,
+summary,
+xmp,
+article,
+aside,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hgroup,
+nav,
+section,
+search,
+table,
+caption,
+colgroup,
+col,
+thead,
+tbody,
+tfoot,
+tr,
+td,
+th,
+dir,
+dd,
+dl,
+dt,
+menu,
+ol,
+ul,
+li,
+bdi,
+output,
+[dir='ltr' i],
+[dir='rtl' i],
+[dir='auto' i] {
+  unicode-bidi: isolate;
+}
+
+/* Matched Rule from regular */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* Matched Rule from regular */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  overflow: hidden;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+/* Inherited from ancestor level 1 (user-agent) */
+body {
+  display: block;
+  margin-top: 8px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  margin-left: 8px;
+}
+
+/* Inherited from ancestor level 1 (regular) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* Inherited from ancestor level 1 (regular) */
+body {
+  background-color: var(--bg-dark);
+  color: var(--text-body);
+  font-family: var(--font-body);
+  line-height: 1.6;
+  overflow-x: hidden;
+  background-color: var(--bg-dark);
+  color: var(--text-body);
+  font-family: var(--font-body);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* Inherited from ancestor level 2 (user-agent) */
+html {
+  display: block;
+}
+
+/* Inherited from ancestor level 2 (user-agent) */
+:root {
+  view-transition-name: root;
+}
+
+/* Inherited from ancestor level 2 (regular) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* Inherited from ancestor level 2 (regular) */
+:host,
+:root {
+  --fa-style-family-brands: 'Font Awesome 6 Brands';
+  --fa-font-brands: normal 400 1em/1 'Font Awesome 6 Brands';
+  --fa-style-family-brands: 'Font Awesome 6 Brands';
+  --fa-font-brands: normal 400 1em/1 'Font Awesome 6 Brands';
+}
+
+/* Inherited from ancestor level 2 (regular) */
+:host,
+:root {
+  --fa-font-regular: normal 400 1em/1 'Font Awesome 6 Free';
+  --fa-font-regular: normal 400 1em/1 'Font Awesome 6 Free';
+}
+
+/* Inherited from ancestor level 2 (regular) */
+:host,
+:root {
+  --fa-style-family-classic: 'Font Awesome 6 Free';
+  --fa-font-solid: normal 900 1em/1 'Font Awesome 6 Free';
+  --fa-style-family-classic: 'Font Awesome 6 Free';
+  --fa-font-solid: normal 900 1em/1 'Font Awesome 6 Free';
+}
+
+/* Inherited from ancestor level 2 (regular) */
+:root {
+  --bg-dark: #022b19;
+  --bg-black: #000000;
+  --primary: #17c522;
+  --secondary: #2d1071;
+  --text-main: #ffffff;
+  --text-body: #e4e6ea;
+  --text-muted: #737373;
+  --bg-soft: #03351f;
+  --font-heading: 'Poppins', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --glass-bg: rgba(255, 255, 255, 0.03);
+  --glass-border: 1px solid rgba(255, 255, 255, 0.08);
+  --glass-blur: blur(12px);
+  --transition: all 0.4s ease;
+  --bg-dark: #022b19;
+  --bg-black: #000000;
+  --primary: #17c522;
+  --secondary: #2d1071;
+  --text-main: #ffffff;
+  --text-body: #e4e6ea;
+  --text-muted: #737373;
+  --bg-soft: #03351f;
+  --font-heading: 'Poppins', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --glass-bg: rgba(255, 255, 255, 0.03);
+  --glass-border: 1px solid rgba(255, 255, 255, 0.08);
+  --glass-blur: blur(12px);
+  --transition: all 0.4s ease;
+}
